@@ -1,0 +1,26 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+@import url("//hello.myfonts.net/count/35dfad");
+
+
+@font-face {
+  font-family: 'Campton-Medium';
+  src: url('http://matthewvernon.co/flipside/assets/webfonts/35DFAD_1_0.eot');
+  src: url('http://matthewvernon.co/flipside/assets/webfonts/35DFAD_1_0.eot?#iefix') format('embedded-opentype'),
+  url('http://matthewvernon.co/flipside/assets/webfonts/35DFAD_1_0.woff2') format('woff2'),
+  url('http://matthewvernon.co/flipside/assets/webfonts/35DFAD_1_0.woff') format('woff'),
+  url('http://matthewvernon.co/flipside/assets/webfonts/35DFAD_1_0.ttf') format('truetype');
+  font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'NoeDisplay-Bold';
+  src: url('http://matthewvernon.co/flipside/assets/webfonts/noedisplaybold.eot'),
+  url('http://matthewvernon.co/flipside/assets/webfonts/noedisplaybold.woff') format('woff');
+  font-weight: 800;
+	font-style: normal;
+}
