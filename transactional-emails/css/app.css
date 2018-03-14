@@ -45,16 +45,56 @@ h1 {
   letter-spacing: -1px;
   line-height: 1;
   max-width: 600px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 60px auto;
+}
+
+.smaller-heading {
+  font-size: 46px;
+  margin-bottom: 30px;
 }
 
 h2 {
   max-width: 700px;
-  margin: 30px auto 30px auto;
+  font-family: 'Campton-SemiBold';
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+
+h2.text-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
   font-size: 22px;
+  max-width: 500px;
+}
+
+h3.text-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 400px;
+}
+
+p.text-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  padding: 25px 40px;
+  color: white;
+  background-color: #322B5E;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 em {
@@ -70,10 +110,26 @@ em {
 }
 
 .email-body {
+  padding-top: 20px;
   max-width: 900px;
   margin: 0 auto;
   min-height: 100px;
   background-color: white;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.footer img {
+  display: block;
+  margin: 30px auto;
+}
+
+.footer p {
+  max-width: 200px;
+  margin: 10px auto;
 }
 
 .row {
@@ -92,7 +148,6 @@ em {
 
 .column-wrapper {
   display: flex;
-  padding-left: 40px;
 }
 
 .column {
@@ -106,7 +161,41 @@ em {
   text-align: center;
 }
 
+.cta h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 
+.cta p {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .smaller-heading {
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+
+  .row {
+    padding: 10px 30px;
+  }
+}
 
 
 
